@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WorkIt</title>
+    <link rel="stylesheet" href="./CSS/index.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="darkblue">
+      <div id="spirals">
+        <div id="spirals1"><img src="./Images/bg-pattern-1.svg" alt="" /></div>
+        <div id="spirals2"><img src="./Images/bg-pattern-2.svg" alt="" /></div>
+      </div>
+      <div id="content">
+        <div id="upper">
+          <p><b>work</b>it</p>
+          <h3 id="over" onmouseover="lineout()" onmouseout="overline()">
+            Apply for access
+          </h3>
+        </div>
+        <div id="data">
+          <h1>
+            Data
+            <span id="under" onmouseover="outline()" onmouseout="underline()"
+              >tailored</span
+            >
+            to
+            <br />
+            your needs.
+          </h1>
+          <button id="button" onclick="display()">
+            <h4>Learn More</h4>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="grey" id="grey">
+      <div id="phone">
+        <img src="./Images/image-hero.webp" alt="" />
+      </div>
+      <div id="content">
+        <div id="one">
+          <h2 id="circle">1</h2>
+          <h1>Actionable Insights</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+            Labore eaque repudiandae sapiente veniam ratione quia saepe, <br />
+            laborum incidunt magnam eos quae id accusamus consectetur, <br />
+            accusantium et reprehenderit. Officia, esse culpa.
+          </p>
+        </div>
+        <div id="one">
+          <h2 id="circle">2</h2>
+          <h1>Data-driven decisions</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+            Labore eaque repudiandae sapiente veniam ratione quia saepe, <br />
+            laborum incidunt magnam eos quae id accusamus consectetur, <br />
+            accusantium et reprehenderit. Officia, esse culpa.
+          </p>
+        </div>
+        <div id="one">
+          <h2 id="circle">3</h2>
+          <h1>Always affordable</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+            Labore eaque repudiandae sapiente veniam ratione quia saepe, <br />
+            laborum incidunt magnam eos quae id accusamus consectetur, <br />
+            accusantium et reprehenderit. Officia, esse culpa.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="white">
+      <div id="bottom">
+        <div id="image">
+          <img
+            src="./Images/Smile1.jpg"
+            onmouseover="hover(this);"
+            onmouseout="hoverOut(this)"
+            alt="profile"
+          />
+        </div>
+        <div id="card">
+          <div class="content">
+            <h1>Be the first to test</h1>
+            <p>
+              Hi! Lorem ipsum dolor sit, adipisicing elit. Eveniet rem, <br />
+              a quos veritatis officiis corporis animi quisquam sed, <br />
+              voluptatibus blanditiis. Perspiciatis, perferendis?
+            </p>
+            <button><h4>Apply for access</h4></button>
+            <div id="spirals3">
+              <img src="./Images/bg-pattern-3.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="foot">
+        <p class="foot"><b>work</b>it</p>
+        <div id="icons">
+          <i class="bx bxl-facebook-square"></i>
+          <i class="bx bxl-twitter"></i>
+          <i class="bx bxl-instagram"></i>
+        </div>
+      </div>
+    </div>
+    <script src="./JS/index.js"></script>
+  </body>
+</html>
