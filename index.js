@@ -1,8 +1,8 @@
 function hover(img) {
-  img.src = "./Images/Smile2.jpg";
+  img.src = "../Images/Smile2.jpg";
 }
 function hoverOut(img) {
-  img.src = "./Images/Smile1.jpg";
+  img.src = "../Images/Smile1.jpg";
 }
 function outline() {
   let under = document.getElementById("under");
